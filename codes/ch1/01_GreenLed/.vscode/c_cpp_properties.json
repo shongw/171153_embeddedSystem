@@ -16,7 +16,7 @@
                 "STM32L431xx",
                 ""
             ],
-            "compilerPath": "D:\\LLVM\\bin\\clang.exe",
+            "compilerPath": "E:\\Psoft\\LLVM\\bin\\clang.exe",
             "cStandard": "c11",
             "cppStandard": "c++17",
             "intelliSenseMode": "clang-x64"

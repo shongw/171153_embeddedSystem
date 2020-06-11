@@ -74,7 +74,8 @@ int main(void)
   HAL_Init();
 
   /* USER CODE BEGIN Init */
-
+    HAL_Delay(500);
+    HAL_GPIO_TogglePin(GPIOC,GPIO_PIN_13);
   /* USER CODE END Init */
 
   /* Configure the system clock */
@@ -94,8 +95,6 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-    HAL_Delay(500);
-    HAL_GPIO_TogglePin(GPIOC,GPIO_PIN_13);
 
     /* USER CODE END WHILE */
 
